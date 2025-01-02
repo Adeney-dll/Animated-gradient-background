@@ -1,0 +1,148 @@
+body{
+    background: linear-gradient(-45deg, white, #fdfd96, #aaf0c9, #2e5a88);
+    animation: changebg 15s ease infinite;
+    background-size: 400% 400%;
+    height: 100vh;
+    margin: auto;
+}
+@keyframes changebg {
+  0%{background-position: 0% 50%;}
+  50%{background-position: 100% 50%;}
+  100%{background-position: 0% 50%;} 
+}
+/* End of body code */
+/* begining of header code */
+header{
+  margin: auto;
+  width: 90%;
+  height: 15%;
+  padding: 10px;
+  border: 3px #7a7a5c;
+}
+.heed{
+  display: inline;
+  font-size: medium;
+  font-family: cursive;
+}
+.icon{
+  width: 30px;
+  height: 30px;
+  display: inline;
+}
+/* End of header code */
+/* div and main section */
+div{
+  width: 80%;
+  height: 200px;
+  margin: auto;
+  border: 3px;
+  padding: 10px;
+}
+#main{
+  background: linear-gradient(45deg, #2e5a88, #aaf0c9, #fdfd96, white);
+  animation: maintm 15s ease infinite;
+  background-size: 400% 400%;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin: auto;
+  width: 100%;
+  height: 60%;
+  border: 3px;
+  padding: 10px
+}
+@keyframes maintm {
+  0%{background-position: 0% 50%;}
+  50%{background-position: 100% 50%;}
+  100%{background-position: 0% 50%;}
+}  
+#daily{
+  border: 3px transparent #fdfd96;
+  border-radius: 5px;
+  width: 250px;
+  transition: width 3s;
+}
+#daily:hover{
+  width: 300px;
+  background: linear-gradient(-45deg, #fdfd96, #f5e559, #face3e, #f5972b);
+  animation: dailych 15s ease infinite;
+  background-size: 400% 400%;
+}
+@keyframes dailych {
+  0%{background-position: 0% 50%;}
+  50%{background-position: 100% 50%;}
+  100%{background-position: 0% 50%;} 
+}
+/*end of daily section*/
+#weekly{
+  border: 3px transparent #aaf0c9;
+  border-radius: 5px;
+  width: 250px;
+  transition: width 3s;
+}
+#weekly:hover{
+  width: 300px;
+  background: linear-gradient(-45deg, #aaf0c9, #84f8b8, #2fd379, #13a354);
+  animation: weekch 15s ease infinite;
+  background-size: 400% 400%;
+}
+@keyframes weekch {
+  0%{background-position: 0% 50%;}
+  50%{background-position: 100% 50%;}
+  100%{background-position: 0% 50%;} 
+}
+/*weeekly section*/
+#monthly{
+  border: 3px transparent #2e5a88;
+  border-radius: 5px;
+  width: 250px;
+  transition: width 3s;
+}
+#monthly:hover{
+  width: 300px;
+  background: linear-gradient(-45deg, #2e5a88, #4380c0, #204368, #193350);
+  animation: monch 15s ease infinite;
+  background-size: 400% 400%; 
+}
+@keyframes monch {
+  0%{background-position: 0% 50%;}
+  50%{background-position: 100% 50%;}
+  100%{background-position: 0% 50%;} 
+}
+/*monthly section*/
+footer{
+  margin: auto;
+  width: 40%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#input{
+  margin: auto;
+  width: 50%;
+  height: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  border: 3px;
+  text-align: center;
+  font-family: cursive;
+}
+#text{
+  margin: auto;
+  width: 30%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  border: 3px;
+}
+footer{
+  background-image: url(https://cdn.dribbble.com/users/37746/screenshots/1566922/graph1.gif);
+  margin: auto;
+  width: 30%;
+  padding: 10px;
+  background: transparent;
+}
