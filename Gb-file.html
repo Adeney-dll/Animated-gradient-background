@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-width=1.0">
+        <title>Best Day Scheduler</title>
+        <link rel="stylesheet" href="list.css">
+    </head>
+    <body>
+        <header>
+            <h3 style="text-align: left; font-family: cursive;"><i>Your Schedules</i></h3> 
+            <p style="text-align: left; font-family: cursive; font-size: small;"><i>great things start small</i></p>
+            <p style="text-align: right; font-family: cursive; font-size: small; text-decoration: underline; right: 10%;">Try our other projects here</p>
+        </header>
+        <br>
+        <main>
+            <div id="main">
+            <div id="monthly" class="monthly">
+                <h2 style="text-align: left; font-family: cursive; font-size: large; font-weight: 600;">Monthly Targets</h2>
+            </div>
+            <br>     
+            <p></p>
+            <div id="weekly" class="weekly">
+                <h2 style="text-align: left; font-family: cursive; font-size: large; font-weight: 600;">Weekly Goals</h2>  
+            </div>
+            <br>
+            <div id="daily" class="daily">
+                <h2 style="text-align: left; font-family: cursive; font-size: large; font-weight: 600;">Daily Tasks</h2>
+            </div> 
+            </div>
+            <br>
+            <p style="text-align: center; font-family: cursive; font-size: small;">make plans and record life</p>
+            <div id="input">
+                <label for="time">Enter time</label>
+                <input type="time" id="time">
+                <label for="day">Select day of the week</label>
+                <select id="day">
+                    <option value="Sunday">Sunday</option>
+                    <option value="Monday" selected>Monday</option>
+                    <option value="Tuesday">Tuesday</option>
+                    <option value="Wednesday">Wednesday</option>
+                    <option value="Thursday">Thursday</option>
+                    <option value="Friday">Friday</option>
+                    <option value="Saturday">Saturday</option> 
+                </select>
+                <label for="month">Select month</label>
+                <select id="month">
+                    <option value="january">January</option>
+                    <option value="february">February</option>
+                    <option value="march">March</option>
+                    <option value="april" selected>April</option>
+                    <option value="may">May</option>
+                    <option value="june">June</option>
+                    <option value="july">July</option>
+                    <option value="august">August</option>
+                    <option value="september">September</option>
+                    <option value="october">October</option>
+                    <option value="november">November</option>
+                    <option value="december">December</option>
+                </select>
+                <br>
+            </div>
+            <br>
+            <div id="text">
+            <textarea placeholder="begin your journey" rows="5" cols="50"></textarea>
+            <input type="submit" style="width: 20%;">
+            </div>
+        </main>
+        <footer>
+            <p id="search" class="heed">Search<img class="icon" src="https://img.icons8.com/?size=100&id=7eX13e1GI7bn&format=png&color=000000"></p>
+            <p id="email" class="heed">E-Mail<img class="icon" src="https://img.icons8.com/?size=100&id=X0mEIh0RyDdL&format=png&color=000000"></p>
+            <p id="github" class="heed">Github<img class="icon" src="https://img.icons8.com/?size=100&id=AZOZNnY73haj&format=png&color=000000"></p>
+            <p id="x" class="heed">Twitter<img class="icon" src="https://img.icons8.com/?size=100&id=yoQabS8l0qpr&format=png&color=000000"></p>
+        </footer>
+    </body>
+</html>
